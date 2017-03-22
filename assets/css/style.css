@@ -1,0 +1,53 @@
+body{
+  background: url(backgroundimage.jpg) no-repeat;
+  background-size: cover;
+}
+.jumbotron{
+
+   /* Positioning */
+  margin-top: 10px;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: black;
+
+  color: white;
+  border: 5px solid white;
+
+
+}
+.btn{
+/*  background: black !important;
+  color: white !important;*/
+  margin-top: 10px !important;
+  text-align: center !important;
+  align-content: center !important;
+  float: center;
+  margin-bottom: 10px !important;
+}
+#question-panel{
+  visibility: hidden;
+  margin: 20px;
+}
+#status-jumbotron{
+  visibility: hidden;
+  margin: 20px;
+}
+#countdown-panel{
+  margin: 20px !important;
+  padding: 20px !important;
+  font-family: "Arial Black", Gadget, sans-serif !important;
+}
+h3{
+  margin: 20px;
+  padding: 20px;
+  font-family: "Arial Black", Gadget, sans-serif;
+} 
+button{
+  height: 200px ;
+  width: 500px;
+  font-size: 36px !important;
+
+}
