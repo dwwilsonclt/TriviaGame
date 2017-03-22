@@ -113,7 +113,7 @@ function gameManager(gameStatus){
 			$("#status-jumbotron").css("visibility","hidden");			
 	}
     questionCount++;
-    if (questionCount > 2){
+    if (questionCount > 9){
     	$("#status-jumbotron").css("visibility","visible");
 		$("#status-message").text("Game Over!");
 		$("#status-message2").text("You picked " + correctAnswers + " correct and " + incorrectAnswers + " incorrect")
